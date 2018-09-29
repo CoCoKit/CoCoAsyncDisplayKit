@@ -139,7 +139,11 @@ NS_ASSUME_NONNULL_BEGIN
  *                    Boolean parameter that contains the value YES if all of the related animations completed successfully or
  *                    NO if they were interrupted. This parameter may be nil. If supplied, the block is run on the main thread.
  */
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Werror,-Wmissing-noescape"
 - (void)performBatchUpdates:(void (^ _Nullable)(void))updates completion:(void (^ _Nullable)(BOOL))completion;
+#pragma clang diagnostic pop
+
 
 /**
  * Reload everything from scratch, destroying the working range and all cached nodes.
