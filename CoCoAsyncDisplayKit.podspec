@@ -2,8 +2,8 @@ Pod::Spec.new do |spec|
   spec.name         = 'CoCoAsyncDisplayKit'
   spec.version      = '1.0.0'
   spec.license      =  { :type => 'MIT' }
-  s.homepage     = "https://github.com/CoCoMaker"
-  s.author       = { "CoCoMaker" => "iScarlett@qq.com" }
+  spec.homepage     = "https://github.com/CoCoMaker"
+  spec.author       = { "CoCoMaker" => "iScarlett@qq.com" }
   spec.summary      = 'Smooth asynchronous user interfaces for iOS apps.'
   spec.source       = { :git => 'https://github.com/CoCoMaker/CoCoAsyncDisplayKit.git', :tag => "1.0.0"}
 
