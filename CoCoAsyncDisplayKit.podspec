@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'http://asyncdisplaykit.org'
   spec.authors      = { 'Scott Goodson' => 'scottgoodson@gmail.com', 'Ryan Nystrom' => 'rnystrom@fb.com' }
   spec.summary      = 'Smooth asynchronous user interfaces for iOS apps.'
-  spec.source       = { :git => 'https://iScarlett@bitbucket.org/iScarlett/cocoasyncdisplaykit.git', "branch" => 'framework' }
+  spec.source       = { :git => 'https://github.com/CoCoKit/CoCoAsyncDisplayKit.git', "branch" => 'v1.0.0' }
 
   spec.documentation_url = 'http://asyncdisplaykit.org/appledoc/'
 
