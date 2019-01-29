@@ -2,8 +2,8 @@
 
 config_current_path=`pwd`  #当前模块跟文件夹
 config_root=$config_current_path/../..;  #总工程文件夹
-config_podspec_name="CoCoCategorys"  #模块名称
-config_framework_url=https://github.com/CoCoKit/CoCoCategorys-framework.git
+config_podspec_name="CoCoAsyncDisplayKit"  #模块名称
+config_framework_url=https://github.com/CoCoKit/CoCoAsyncDisplayKit-framework.git
 
 
 #=====================================================
